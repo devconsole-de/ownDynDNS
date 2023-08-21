@@ -25,7 +25,10 @@ Self-hosted dynamic DNS php script to update netcup DNS API from Router like AVM
 * Update-URL: `https://<url of your webspace>/update.php?user=<username>&password=<pass>&ipv4=<ipaddr>&ipv6=<ip6addr>&domain=<domain>`
   * only the url needs to be adjusted, the rest is automatically filled by your AVM FRITZ!Box
   * http or https is possible if valid SSL certificate (e.g. Let's Encrypt)
-* Domainname: `<host record that is supposed to be updated>`
+* Single Domain:
+  * Domainname: `<host record that is supposed to be updated>`
+* Multiple Domains:
+  * Domainname: `<first host record that is supposed to be updated>,<second host record that is supposed to be updated>,....`
 * Username: `<username as defined in .env file>`
 * Password: `<password as definied in .env file>`
 
